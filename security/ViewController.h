@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property(strong,nonatomic) NSString* ip;
+@property(strong,nonatomic) NSString* port;
 @end
 
